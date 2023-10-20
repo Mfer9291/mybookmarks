@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} html,body{
+    font-size: 62.5%;
+} 
+body{
+    background-image: url('Resourses/Backgrounds/ironman.jpg');
+     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+} 
+.main_container{
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.links{
+
+    font-size: 50px;
+   }
+.chat img{
+    border-radius: 50%;
+}
+img{
+    height: 45px;
+}
+h1{
+    font-size: 5rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+@media (max-width:786px){
+.main_container{
+    display: grid;
+    place-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+
+}
+ 
